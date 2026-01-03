@@ -45,8 +45,7 @@ const Landing = () => {
 </h6>
 <h6>
   <b>
-    He builds hardware friendly, low latency systems in SystemVerilog and
-    embedded C, with hands on experience in Vivado and Quartus.
+    He builds hardware friendly, low latency systems in SystemVerilog and embedded C, with hands on experience in Vivado and Quartus.
   </b>
 </h6>
 <h6>
