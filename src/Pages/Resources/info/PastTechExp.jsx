@@ -8,10 +8,7 @@ const TechEx = () => {
             <p>
             </p>
             <ul style={{width:"96%"}}>
-              <li>English (C1)</li>
-              <li>Hindi (Native Fluency)</li>
-              <li>Punjabi (Native)</li>
-              <li>Urdu (Spoken Fluency)</li>
+              <li>English (Native Fluency)</li>
             </ul>
         </div>
       </div>

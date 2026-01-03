@@ -18,9 +18,9 @@ const Landing = () => {
           <h4 className='text-center' style={{ color: '#39392D' }}><i>"It is what we know already that often prevents us from learning."</i></h4>
 
           <div className="col-md-12 d-flex justify-content-end align-items-bottom">
-              <a className='px-2 text-right' href="mailto:sujots92@gmail.com"><img width="20" height="20" src={gmail} className="logo" alt="mail" style={{verticalAlign: 'middle', marginTop: "5px"}}/></a>
+              <a className='px-2 text-right' href="mailto:sfaraazio@gmail.com"><img width="20" height="20" src={gmail} className="logo" alt="mail" style={{verticalAlign: 'middle', marginTop: "5px"}}/></a>
               <a className='px-2 text-right' href="https://www.linkedin.com/in/sujot/"><img width="20" height="20" src={linkedin} className="logo" alt="linkedin" /></a>
-              <a className='px-2 text-right' href="https://github.com/3xcess"><img width="20" height="20" src={github} className="logo" alt="github" /></a>
+              <a className='px-2 text-right' href="https://github.com/Faraazio"><img width="20" height="20" src={github} className="logo" alt="github" /></a>
               <a
                 className="px-2 text-right"
                 href="/CV_PDF.pdf"
@@ -37,19 +37,67 @@ const Landing = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-7" style={{textAlign:"justify"}}>
-            <h6><b>Sujot is a Software Engineer with 3+ years of professional experience in building and maintaining highly secure, scalable, low latency software.</b></h6>
-            <h6><b>He is currently pursuing an MS in Computer Science from the University of Illinois, Chicago.</b></h6>
-            <h6><b>Sujot is passionate about building sustainable and result-oriented systems that have a real-world impact and are drivers of change.</b></h6>
-            <h6><br></br>Hello World!</h6>
-            <p>I'm Sujot, a 26y/o software engineer currently pursuing my MS in Computer Science at UIC. You can reach out to me at my <a href="mailto:sujots92@gmail.com" style={{color:"#557E25"}}>personal email</a>, or my <a href="mailto:ssing231@uic.edu" style={{color:"#557E25"}}>academic email.</a></p>
-            <p>With over 3 years of professional work experience, and over 5 years in CS academia, I possess robust knowledge of C/C++, Java Spring, Python, and Shell Scripting. 
-               I have strong experience with container orchestration and containerization, computer and cloud architecture, networked and distributed systems, relational and NoSQL databases, build RESTful and FHIR APIs, testing and automation, as well as software security and vulnerability resolution. 
-               <br></br>
-               I'm also well-versed in CI/CD techniques, DevOps, Agile development, as well as working with(and within) cross-functional teams while ensuring the secure handling of highly sensitive data.
-            </p>
-            <p>My present work is on Operating Systems, Kernel Programming, System Security, and User Privacy.
-               This website is also one of my ongoing personal projects, my personal foray into web development and learning React!
-            </p>
+            <h6>
+  <b>
+    Faraaz Shah is a Computer Engineering student at the University of Illinois
+    Urbana-Champaign focused on digital hardware design and FPGA prototyping.
+  </b>
+</h6>
+<h6>
+  <b>
+    He builds hardware friendly, low latency systems in SystemVerilog and
+    embedded C, with hands on experience in Vivado and Quartus.
+  </b>
+</h6>
+<h6>
+  <b>
+    He is interested in real time signal processing, secure systems, and
+    hardware acceleration for streaming inference workloads.
+  </b>
+</h6>
+
+<h6>
+  <br />
+  Hello World!
+</h6>
+
+<p>
+  I'm Faraaz, based in Naperville, IL. I am pursuing a BS in Computer
+  Engineering at the University of Illinois Urbana-Champaign, expected May
+  2027, with a 3.80 GPA. You can reach me at my{" "}
+  <a href="mailto:sfaraazio@gmail.com" style={{ color: "#557E25" }}>
+    email
+  </a>
+  , and view my work on{" "}
+  <a href="https://faraazio.github.io" style={{ color: "#557E25" }}>
+    faraazio.github.io
+  </a>
+  .
+</p>
+
+<p>
+  My core technical strengths include SystemVerilog, C and C++, Python, Git,
+  Vivado, Quartus II, XDC constraints, and embedded workflows. I also work with
+  PyTorch for ML prototyping, KiCad for hardware projects, and MCUXpresso for
+  firmware development.
+</p>
+
+<p>
+  Recent projects include a 16-bit SLC-3.2 CPU on the Urbana FPGA board with a
+  multi cycle FSM controller and BRAM interface, plus a real time voice
+  modulation pipeline that processes I2S audio at 48 kHz and 100 MHz timing,
+  including filtering and bus transfer logic. I am also building a streaming
+  insider risk scoring pipeline on the CERT sparse needle dataset with Dynamic
+  Bayesian Network likelihoods and a game theoretic equilibrium layer, with a
+  plan for fixed point friendly FPGA acceleration targets.
+</p>
+
+<p>
+  Outside of coursework, I worked on firmware for Illini Solar Car, including
+  repairing legacy code and improving device communication over CAN on target
+  boards.
+</p>
+
             <p><b>Resources:</b><br></br>
                <a
                     
@@ -58,13 +106,13 @@ const Landing = () => {
                     rel="noopener noreferrer"
                     style={{color:"#557E25"}}
                     >Curriculum Vitae</a><br></br>
-               <a href="https://github.com/3xcess" style={{color:"#557E25"}}>Github</a><br></br>
+               <a href="https://github.com/Faraazio" style={{color:"#557E25"}}>Github</a><br></br>
             </p>
 
             <div className="card my-2" style={{ backgroundColor: "#F2F3E2", border: 'none' }}>
               <div className="card-body text-center">
                 <img 
-                  src={`https://ghchart.rshah.org/3xcess?${new Date().getTime()}`} 
+                  src={`https://ghchart.rshah.org/Faraazio?${new Date().getTime()}`} 
                   alt="GitHub chart of Sujot" 
                   className="img-fluid" 
                   style={{ maxWidth: '100%', height: 'auto' }} 
