@@ -1,8 +1,8 @@
 {
-  "name": "3xcess.github.io",
+  "name": "faraazio.github.io",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://3xcess.github.io/",
+  "homepage": "https://faraazio.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
