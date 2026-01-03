@@ -1,0 +1,14 @@
+body {
+  padding-top: 3.5rem;
+}
+
+.display-pics {
+  border-radius: 50%;
+  border: 2px solid #64403E;
+  padding: 2px;
+  width: 150px;
+}
+
+.logo {
+  color: #3A506B;
+}

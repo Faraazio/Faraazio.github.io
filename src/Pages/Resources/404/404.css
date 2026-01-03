@@ -1,0 +1,47 @@
+.page_404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  font-family: 'Arvo', serif;
+  text-align: center;
+}
+
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+
+  background-image: url("https://raw.githubusercontent.com/joeymalvinni/404-illustrations/main/lost-astronaut.svg");
+  height: 700px;
+}
+
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #48483A;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+}
+
+.link_404:hover{
+  text-decoration: none;
+  background: #899878;
+}
